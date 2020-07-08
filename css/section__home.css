@@ -1,0 +1,38 @@
+.header_logo svg{
+  width: 186px;
+  height: 70px;
+}
+
+.header_logo,
+.section-home {
+  text-align: center;
+}
+
+.section-home {
+  padding: 0 20px 20px 20px;
+}
+
+.section-home__heading {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+
+.section-home__article--information {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4F4F4F;
+}
+
+.section-home__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section-home__footer--download:first-child {
+  margin-inline-end: 28px;
+}
