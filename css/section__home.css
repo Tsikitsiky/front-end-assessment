@@ -1,6 +1,8 @@
 .header_logo svg{
   width: 186px;
   height: 70px;
+  margin-block-start: 30px;
+  margin-block-end: 50px;
 }
 
 .header_logo,
@@ -13,6 +15,7 @@
 }
 
 .section-home__heading {
+  margin-block-end: 33px;
   font-weight: bold;
   font-size: 30px;
   line-height: 40px;
@@ -21,18 +24,21 @@
 }
 
 .section-home__article--information {
+  margin-block-end: 50px;
   font-weight: normal;
   font-size: 16px;
   line-height: 23px;
   color: #4F4F4F;
 }
 
-.section-home__footer {
+.section-home__footer ul{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
 }
 
-section-home__footer--download:first-child {
+.section-home__footer nav li:first-of-type {
   margin-inline-end: 28px;
 }
