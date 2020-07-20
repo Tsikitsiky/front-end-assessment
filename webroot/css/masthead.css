@@ -16,8 +16,7 @@ display: none;
 
 .masthead__subheading {
   margin-bottom: 33px;
-  font-family: lato, Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: 40px;
   letter-spacing: 0.03em;
@@ -25,19 +24,17 @@ display: none;
 }
 
 .masthead__info {
-  width: 320px;
-  height: 70px;
+
   margin-bottom: 50px;
-  font-family: lato, Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 23px;
   color: #4F4F4F;
 }
 
 .masthead img {
-  width: 145.69px;
-  height: 44px;
+  max-width: 145.69px;
+  max-height: 44px;
 }
 
 .masthead__nav {
@@ -71,7 +68,7 @@ padding-bottom: 50px;
     max-height: 100%;
     margin-left: 158px;
     padding: 0;
-    background-image: url(../img/bg_header.png);
+    background-image: url(../img/bg_header-resized.png);
     background-repeat: no-repeat;
     background-position: 115% 85%;
     background-size: 720px;
@@ -87,7 +84,7 @@ padding-bottom: 50px;
   max-width: 546px;
   max-height: 96px;
   font-size: 36px;
-  line-height: 48px;
+  line-height: 38px;
 
 }
 
