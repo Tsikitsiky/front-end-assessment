@@ -63,13 +63,13 @@
   }
 
   .masthead {
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: 158px;
+    max-width: 1080px;
+    max-height: 665px;
+    margin: auto;
     padding: 0;
     background-image: url(../img/bg_header-resized.png);
     background-repeat: no-repeat;
-    background-position: 115% 85%;
+    background-position: 454px 85%;
     background-size: 720px;
     text-align: left;
   }
@@ -88,7 +88,7 @@
   }
 
   .masthead__info {
-    width: 453px;
+    max-width: 453px;
     height: 52px;
     font-size: 18px;
     line-height: 26px;
