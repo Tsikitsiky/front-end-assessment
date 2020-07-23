@@ -1,5 +1,11 @@
 # Front-end assessment
 
+## Install node-modules
+'npm i'
+
+## Run css
+'npm run css:watch'
+
 A mockup-to-website example to be used as an assessment
 
 ## Getting started
