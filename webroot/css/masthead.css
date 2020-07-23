@@ -1,8 +1,12 @@
-.masthead_logo svg{
+header {
+  text-align: center;
+}
+.logo svg{
   width: 186px;
   height: 70px;
   margin-top: 30px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .masthead {
@@ -10,11 +14,11 @@
   padding: 0 20px 20px 20px;
 }
 
-.masthead span {
+.logo span {
   display: none;
 }
 
-.masthead__subheading {
+.masthead__heading {
   margin-bottom: 33px;
   font-weight: 700;
   font-size: 30px;
@@ -36,11 +40,11 @@
   max-height: 44px;
 }
 
-.masthead__nav {
+.masthead__footer--nav {
   padding-bottom: 50px;
 }
 
-.masthead__nav ul{
+.masthead__footer--nav ul{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -49,37 +53,47 @@
   padding: 0;
 }
 
-.masthead__nav li:first-of-type {
+.masthead__footer--nav li:first-of-type {
   margin-right: 28px;
 }
 
 
 /* Desktop view*/
 
-@media (min-width: 1080px) {
-  .masthead_logo svg{
+@media (min-width: 1140px) {
+
+  header {
+text-align: left;
+  }
+
+  .logo svg{
     width: 92px;
     height: 32px;
   }
 
-  .masthead {
+  body {
     max-width: 1080px;
     max-height: 665px;
     margin: auto;
     padding: 0;
     background-image: url(../img/bg_header-resized.png);
     background-repeat: no-repeat;
-    background-position: 454px 85%;
-    background-size: 720px;
+    background-position: calc(50vw - 11px) 85%;
+    background-size: 700px;
     text-align: left;
   }
 
+  .masthead {
+    text-align: left;
+    padding: 0;
+    max-width: 546px;
+  }
 
-  .masthead__nav ul {
+  .masthead__footer--nav ul {
     justify-content: flex-start;
   }
 
-  .masthead__subheading {
+  .masthead__heading {
     max-width: 546px;
     max-height: 96px;
     font-size: 36px;
