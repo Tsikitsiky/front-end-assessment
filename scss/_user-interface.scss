@@ -1,0 +1,42 @@
+@import "variables";
+
+.start-link a {
+  text-transform: uppercase;
+  color: $light-blue;
+  line-height: 21px;
+}
+
+.start-link {
+  padding-top: 55px;
+  margin-top: 0;
+}
+
+.user-interface__subheading {
+  color: $colour-headings;
+}
+
+.user-interface {
+  padding-left: 18px;
+  padding-right: 22px;
+  padding-bottom: 562px;
+  background-color: $light-background;
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-repeat: no-repeat;
+  background-position: 50% -110px;
+  background-size: 1580px;
+}
+
+.user-interface p {
+  margin-top: 27px;
+  text-align: center;
+  line-height: 23px;
+  color: $colour-paragraph;
+}
+
+.learn-more-link {
+  color: $light-blue;
+}
+
+@media (min-width: $break-point) {
+
+}

@@ -1,0 +1,21 @@
+$base-fonts: 'Lato';
+$font-fallbacks: Arial, Helvetica, sans-serif;
+$colour-headings: #333333;
+$colour-paragraph: #4f4f4f;
+$background-colour: #F4F6F9;
+$light-blue: #00ADEE;
+$light-background: #FFFFFF;
+$faux-column-wide: 1114px;
+$break-point: $faux-column-wide;
+$path-to-img: "../img/";
+
+@mixin list-style {
+  list-style: none;
+  padding: 0;
+}
+
+@mixin anker {
+  text-decoration: none;
+}
+
+
