@@ -28,6 +28,13 @@ p {
   margin: 0;
   padding: 0; }
 
+ul {
+  list-style: none;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
 header {
   text-align: center; }
 
@@ -71,22 +78,19 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0; }
+  flex-wrap: wrap; }
 
 .masthead__nav li:first-of-type {
   margin-right: 28px; }
 
 /* Desktop view*/
-@media (min-width: 1140px) {
+@media (min-width: 1114px) {
   header {
     text-align: left;
     position: relative; }
   .logo svg {
     position: absolute;
-    top: 50%;
-    left: 8%;
+    left: calc(50% - 557px);
     width: 92px;
     height: 32px;
     margin-top: 63px; }
@@ -114,3 +118,34 @@ header {
     height: 52px;
     font-size: 18px;
     line-height: 26px; } }
+
+.start-link a {
+  text-transform: uppercase;
+  color: #00ADEE;
+  line-height: 21px; }
+
+.start-link {
+  padding-top: 55px;
+  margin-top: 0; }
+
+.user-interface__subheading {
+  color: #333333; }
+
+.user-interface {
+  padding-left: 18px;
+  padding-right: 22px;
+  padding-bottom: 562px;
+  background-color: #FFFFFF;
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-repeat: no-repeat;
+  background-position: 50% -110px;
+  background-size: 1580px; }
+
+.user-interface p {
+  margin-top: 27px;
+  text-align: center;
+  line-height: 23px;
+  color: #4f4f4f; }
+
+.learn-more-link {
+  color: #00ADEE; }
