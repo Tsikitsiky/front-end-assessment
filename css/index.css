@@ -173,3 +173,45 @@ header {
     max-height: 22px; }
   .start-link {
     padding-top: 0; } }
+
+.advertisement-container {
+  background-color: #FAFAFA; }
+
+.advertisement {
+  padding-top: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 58px; }
+
+.advertisement_link a {
+  color: #4f4f4f; }
+
+.advertisement_link {
+  padding-top: 100px;
+  text-align: center;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
+
+.video {
+  background-image: url(../img/icon_video_blue.svg);
+  background-size: 36.67px 30px; }
+
+.notification {
+  background-image: url(../img/icon_bell_ringing_blue.svg);
+  background-size: 33.23px 32.5px; }
+
+.hd {
+  background-image: url(../img/icon_hd_blue.svg);
+  background-size: 30px 30px; }
+
+.flag {
+  background-image: url(../img/icon_flag_blue.svg);
+  background-size: 25px 28.33px; }
+
+.picture {
+  background-image: url(../img/icon_tent_blue.svg);
+  background-size: 34.81px 31.67px; }
+
+.live {
+  background-image: url(../img/icon_graph_blue.svg);
+  background-size: 30px 30px; }
