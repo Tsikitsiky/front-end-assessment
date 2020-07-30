@@ -183,6 +183,9 @@ header {
   padding-right: 20px;
   padding-bottom: 58px; }
 
+.advertisement__heading h3 {
+  text-align: center; }
+
 .advertisement_link a {
   color: #4f4f4f; }
 
@@ -215,3 +218,44 @@ header {
 .live {
   background-image: url(../img/icon_graph_blue.svg);
   background-size: 30px 30px; }
+
+@media (min-width: 1114px) {
+  .advertisement-container {
+    background-color: #00ADEE;
+    color: #FFFFFF; }
+  .advertisement_link a {
+    color: #FFFFFF; }
+  .advertisement_link--list {
+    display: flex;
+    list-style: disc;
+    flex-wrap: wrap; }
+  .video {
+    background-image: url(../img/icon_video_white.svg);
+    background-size: 36.67px 30px; }
+  .notification {
+    background-image: url(../img/icon_bell_ringing_white.svg);
+    background-size: 33.23px 32.5px; }
+  .hd {
+    background-image: url(../img/icon_hd_white.svg);
+    background-size: 30px 30px; }
+  .flag {
+    background-image: url(../img/icon_flag_white.svg);
+    background-size: 25px 28.33px; }
+  .picture {
+    background-image: url(../img/icon_tent_white.svg);
+    background-size: 34.81px 31.67px; }
+  .live {
+    background-image: url(../img/icon_graph_white.svg);
+    background-size: 30px 30px; }
+  .advertisement_link {
+    max-width: 311px;
+    padding-top: 100px;
+    margin-right: 60px;
+    text-align: left;
+    background-position: 0 40%;
+    background-repeat: no-repeat; }
+  .advertisement {
+    max-width: 1114px;
+    margin: auto;
+    padding-top: 42px;
+    padding-bottom: 58px; } }
