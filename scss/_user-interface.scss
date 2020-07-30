@@ -15,7 +15,7 @@
   color: $colour-headings;
 }
 
-.user-interface {
+.user-interface-container {
   padding-left: 18px;
   padding-right: 22px;
   padding-bottom: 562px;
@@ -38,5 +38,36 @@
 }
 
 @media (min-width: $break-point) {
+  .user-interface__subheading {
+  max-width: 480px;
+  font-size: 28px;
+  line-height: 37px;
+  };
 
+  .user-interface p {
+    max-width: 480px;
+    text-align: left;
+  };
+
+  .user-interface {
+    text-align: left;
+    padding-top: 217px;
+    max-width: $break-point;
+    margin: auto;
+  }
+
+  .user-interface-container {
+    background-position: calc(50% + 257px) 50%;
+    background-size: 2000px;
+    padding-bottom: 171px;
+  }
+
+  .user-interface-header {
+    max-width: 118px;
+    max-height: 22px;
+  }
+
+  .start-link {
+    padding-top: 0;
+  }
 }

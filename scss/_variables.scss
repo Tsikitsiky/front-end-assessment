@@ -8,6 +8,7 @@ $light-background: #FFFFFF;
 $faux-column-wide: 1114px;
 $break-point: $faux-column-wide;
 $path-to-img: "../img/";
+$base-font-size: 16px;
 
 @mixin list-style {
   list-style: none;
