@@ -1,0 +1,41 @@
+@import "variables";
+.site-feature__container {
+  background-color: #FAFAFA;
+}
+
+.site-feature {
+  padding-top: 57px;
+  padding-bottom: 72px;
+}
+
+.site-feature__link--list {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.site-feature__heading {
+  text-align: center;
+  color: $colour-headings;
+}
+
+.site-feature__link {
+  display: block;
+  margin: 15px;
+}
+
+@media(min-width: $break-point) {
+  .site-feature__link--list {
+    justify-content: stretch;
+  }
+
+  .site-feature {
+    max-width: $faux-column-wide;
+    margin: auto;
+  }
+
+  .site-feature__link + .site-feature__link {
+    margin-right: 40px;
+  }
+}
