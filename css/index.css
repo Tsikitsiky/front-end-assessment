@@ -184,7 +184,9 @@ header {
   padding-bottom: 58px; }
 
 .advertisement__heading h3 {
-  text-align: center; }
+  text-align: center;
+  font-size: 28px;
+  line-height: 37px; }
 
 .advertisement_link a {
   color: #4f4f4f; }
@@ -259,3 +261,33 @@ header {
     margin: auto;
     padding-top: 42px;
     padding-bottom: 58px; } }
+
+.site-feature__container {
+  background-color: #FAFAFA; }
+
+.site-feature {
+  padding-top: 57px;
+  padding-bottom: 72px; }
+
+.site-feature__link--list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.site-feature__heading {
+  text-align: center;
+  color: #333333; }
+
+.site-feature__link {
+  display: block;
+  margin: 15px; }
+
+@media (min-width: 1114px) {
+  .site-feature__link--list {
+    justify-content: stretch; }
+  .site-feature {
+    max-width: 1114px;
+    margin: auto; }
+  .site-feature__link + .site-feature__link {
+    margin-right: 40px; } }
