@@ -1,0 +1,31 @@
+@import "variables";
+.body-footer {
+  background-color: $light-blue;
+}
+
+.body-footer div {
+  max-width: $faux-column-wide;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body-footer.logo {
+  color: $light-background;
+}
+
+.body-footer.logo svg{
+  fill: currentColor;
+}
+
+.social-media span {
+text-indent: -11111;
+}
+
+.body-footer a{
+color: $light-background;
+}
+
+.social-media {
+  display: flex;
+}

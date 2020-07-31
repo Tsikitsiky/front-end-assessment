@@ -291,3 +291,27 @@ header {
     margin: auto; }
   .site-feature__link + .site-feature__link {
     margin-right: 40px; } }
+
+.body-footer {
+  background-color: #00ADEE; }
+
+.body-footer div {
+  max-width: 1114px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; }
+
+.body-footer.logo {
+  color: #FFFFFF; }
+
+.body-footer.logo svg {
+  fill: currentColor; }
+
+.social-media span {
+  text-indent: -11111; }
+
+.body-footer a {
+  color: #FFFFFF; }
+
+.social-media {
+  display: flex; }
