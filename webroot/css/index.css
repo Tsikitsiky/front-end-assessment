@@ -39,7 +39,7 @@ a {
 header {
   text-align: center; }
 
-.logo svg {
+header > .logo svg {
   width: 186px;
   height: 70px;
   margin-top: 30px;
@@ -89,7 +89,7 @@ header {
   header {
     text-align: left;
     position: relative; }
-  .logo svg {
+  header > .logo svg {
     position: absolute;
     left: calc(50% - 557px);
     width: 92px;
@@ -267,7 +267,8 @@ header {
 
 .site-feature {
   padding-top: 57px;
-  padding-bottom: 72px; }
+  padding-bottom: 72px;
+  text-align: center; }
 
 .site-feature__link--list {
   display: flex;
@@ -275,13 +276,36 @@ header {
   flex-wrap: wrap;
   justify-content: center; }
 
+.site-feature__link--list svg {
+  display: inline-block; }
+
+.site-feature__link--list a {
+  display: inline-block; }
+
 .site-feature__heading {
-  text-align: center;
   color: #333333; }
 
 .site-feature__link {
-  display: block;
-  margin: 15px; }
+  display: inline-block;
+  line-height: 58px; }
+
+.sports-tv {
+  flex-basis: 50%; }
+
+.sports {
+  flex-basis: 50%; }
+
+.nbc-sports {
+  flex-basis: 30%; }
+
+.designer-tech {
+  flex-basis: 30%; }
+
+.dn {
+  flex-basis: 40%; }
+
+.sky-sports {
+  flex-basis: 100%; }
 
 @media (min-width: 1114px) {
   .site-feature__link--list {
@@ -289,8 +313,10 @@ header {
   .site-feature {
     max-width: 1114px;
     margin: auto; }
-  .site-feature__link + .site-feature__link {
-    margin-right: 40px; } }
+  .site-feature__link {
+    margin-right: 40px; }
+  .site-feature__link {
+    flex-basis: 0; } }
 
 .body-footer {
   background-color: #00ADEE; }
@@ -298,20 +324,61 @@ header {
 .body-footer div {
   max-width: 1114px;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap; }
+  padding-top: 43px;
+  padding-bottom: 45px; }
 
-.body-footer.logo {
-  color: #FFFFFF; }
-
-.body-footer.logo svg {
-  fill: currentColor; }
-
-.social-media span {
-  text-indent: -11111; }
+.body-footer span {
+  text-indent: -9999px; }
 
 .body-footer a {
   color: #FFFFFF; }
 
-.social-media {
+.social-media,
+.others {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 45px; }
+
+.social-media li {
+  padding-top: 1rem; }
+
+.body-footer li,
+.body-footer p {
+  margin-left: 1rem; }
+
+.body-footer ul {
+  padding: 0;
   display: flex; }
+
+.logo-footer {
+  width: 56px;
+  height: 30px;
+  text-indent: -9999px;
+  background-image: url(../img/logo_sports_white.svg);
+  background-size: 56px 30px;
+  background-repeat: no-repeat; }
+
+.twitter,
+.facebook,
+.insta {
+  width: 30px;
+  height: 20px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-size: 30px 20px; }
+
+.twitter {
+  background-image: url(../img/icon_twitter.svg); }
+
+.facebook {
+  background-image: url(../img/icon_facebook.svg); }
+
+.insta {
+  background-image: url(../img/icon_instagram.svg); }
+
+@media (min-width: 1114px) {
+  .body-footer div {
+    display: flex;
+    justify-content: space-between; }
+  .social-media {
+    order: 3; } }
