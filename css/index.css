@@ -274,7 +274,8 @@ header > .logo svg {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  padding: 0; }
 
 .site-feature__link--list svg {
   display: inline-block; }
@@ -283,7 +284,9 @@ header > .logo svg {
   display: inline-block; }
 
 .site-feature__heading {
-  color: #333333; }
+  color: #333333;
+  text-align: center;
+  margin-bottom: 58px; }
 
 .site-feature__link {
   display: inline-block;
@@ -299,24 +302,22 @@ header > .logo svg {
   flex-basis: 30%; }
 
 .designer-tech {
-  flex-basis: 30%; }
+  flex-basis: 40%; }
 
 .dn {
-  flex-basis: 40%; }
+  flex-basis: 30%; }
 
 .sky-sports {
   flex-basis: 100%; }
 
 @media (min-width: 1114px) {
   .site-feature__link--list {
-    justify-content: stretch; }
+    justify-content: space-around; }
   .site-feature {
     max-width: 1114px;
     margin: auto; }
   .site-feature__link {
-    margin-right: 40px; }
-  .site-feature__link {
-    flex-basis: 0; } }
+    flex-basis: auto; } }
 
 .body-footer {
   background-color: #00ADEE; }
@@ -325,7 +326,7 @@ header > .logo svg {
   max-width: 1114px;
   margin: auto;
   padding-top: 43px;
-  padding-bottom: 45px; }
+  padding-bottom: 43px; }
 
 .body-footer span {
   text-indent: -9999px; }
@@ -379,6 +380,10 @@ header > .logo svg {
 @media (min-width: 1114px) {
   .body-footer div {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
   .social-media {
-    order: 3; } }
+    order: 3;
+    margin: 0; }
+  .others {
+    margin: 0; } }
