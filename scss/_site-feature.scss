@@ -1,0 +1,78 @@
+@import "variables";
+.site-feature__container {
+  background-color: #FAFAFA;
+}
+
+.site-feature {
+  padding-top: 57px;
+  padding-bottom: 72px;
+  text-align: center;
+}
+
+.site-feature__link--list {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0;
+}
+
+.site-feature__link--list svg {
+  display: inline-block;
+}
+
+.site-feature__link--list a {
+  display: inline-block;
+}
+
+.site-feature__heading {
+  color: $colour-headings;
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+.site-feature__link {
+  display: inline-block;
+  line-height: 58px;
+}
+
+.sports-tv {
+  flex-basis: 50%;
+}
+
+.sports {
+  flex-basis: 50%;
+}
+
+.nbc-sports {
+  flex-basis: 30%;
+}
+
+.designer-tech {
+  flex-basis: 40%;
+}
+
+.dn {
+  flex-basis: 30%;
+}
+
+.sky-sports {
+  flex-basis: 100%;
+}
+
+@media(min-width: $break-point) {
+  .site-feature__link--list {
+    justify-content: space-around;
+  }
+
+  .site-feature {
+    max-width: $faux-column-wide;
+    margin: auto;
+  }
+
+
+
+  .site-feature__link {
+    flex-basis: auto;
+  }
+}

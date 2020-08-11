@@ -1,0 +1,93 @@
+@import "variables";
+.body-footer {
+  background-color: $light-blue;
+}
+
+.body-footer div {
+  max-width: $faux-column-wide;
+  margin: auto;
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+
+
+.body-footer span {
+text-indent: -9999px;
+}
+
+.body-footer a{
+color: $light-background;
+}
+
+.social-media,
+.others {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 45px;
+}
+
+.social-media li {
+  padding-top: 1rem;
+}
+
+
+.body-footer li,
+.body-footer p  {
+  margin-left: 1rem;
+}
+
+.body-footer ul {
+  padding: 0;
+  display: flex;
+}
+
+.logo-footer {
+  width: 56px;
+  height: 30px;
+  text-indent: -9999px;
+  background-image: url(../img/logo_sports_white.svg);
+  background-size: 56px 30px;
+  background-repeat: no-repeat;
+}
+
+
+ .twitter,
+ .facebook,
+ .insta {
+  width: 30px;
+  height: 20px;
+  text-indent: -9999px;
+   background-repeat: no-repeat;
+   background-size: 30px 20px;
+ }
+
+  .twitter {
+   background-image: url(../img/icon_twitter.svg);
+ }
+
+ .facebook {
+   background-image: url(../img/icon_facebook.svg);
+ }
+
+ .insta {
+   background-image: url(../img/icon_instagram.svg);
+ }
+
+
+ @media(min-width:$break-point) {
+   .body-footer div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .social-media {
+     order: 3;
+     margin: 0;
+   }
+
+   .others {
+     margin: 0;
+   }
+
+ }
