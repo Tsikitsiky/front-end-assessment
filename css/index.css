@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'lato2';
   src: local("Lato Bold"), local("Lato-Bold"), url("../fonts/lato-bold.woff2") format("woff2"), url("../fonts/lato-bold.woff") format("woff");
@@ -229,8 +230,11 @@ header > .logo svg {
     color: #FFFFFF; }
   .advertisement_link--list {
     display: flex;
-    list-style: disc;
     flex-wrap: wrap; }
+  .advertisement_link::before {
+    content: '• ';
+    top: 50%;
+    left: 50%; }
   .video {
     background-image: url(../img/icon_video_white.svg);
     background-size: 36.67px 30px; }
@@ -285,6 +289,10 @@ header > .logo svg {
 
 .site-feature__heading {
   color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
   text-align: center;
   margin-bottom: 58px; }
 
